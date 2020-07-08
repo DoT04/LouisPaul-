@@ -154,14 +154,14 @@ nav.mainnav {
     text-align: center;
     font: 300 3rem/1.6 Lato, Arial, sans-serif;
 }
-/* p {
+.overlay-titel{
     font: 200 3rem/1.6 Lato, Arial, sans-serif;
     letter-spacing: .2em;
     color: #F1F1F1;
     margin-left: 4em;
     text-transform: uppercase;
 
-} */
+}
 
 /* AD
 --------------------------------------------------------*/
