@@ -17,7 +17,7 @@
 * body {
     font: 300 100%/1.6 Lato, Arial, sans-serif;
     background: #EEEEEE;
-    text-align: center;
+
     overflow-x: hidden;
     /* scrollbalk wegdoen in mobile */
 }
@@ -25,10 +25,31 @@
 .container {
     max-width: 1400px;
     margin: 0 auto;
+
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.page-section {
+    width: 100%;
+    display: block;
+    position: relative;
+    overflow: hidden;
+}
+
+.row {
+    margin-right: -15px;
+    margin-left: -15px;
 }
 
 .responsive-image {
     width: 100%;
+}
+
+.bold {
+    font-weight: bold !important;
 }
 
 /* Navigatie ------------------------------------------- */
@@ -114,18 +135,118 @@ nav.mainnav {
     font: 9rem "Yeseva one", cursive;
 
 }
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%;
+  }
+.icon{
+    padding-left: .8em;
+    
+}
+.iconcont{
+    text-align: center;
+}
 
-p {
+
+.icontitel{
+    text-align: center;
+    font: 300 3rem/1.6 Lato, Arial, sans-serif;
+}
+/* p {
     font: 200 3rem/1.6 Lato, Arial, sans-serif;
     letter-spacing: .2em;
     color: #F1F1F1;
     margin-left: 4em;
     text-transform: uppercase;
 
+} */
+
+/* AD
+--------------------------------------------------------*/
+
+.text-cont-left {
+    margin: 0 auto;
+    padding: 145px 50px 140px 50px;
+    max-width: 50%;
 }
 
-/* MAIN 
---------------------------------------------------------*/
+.text-cont-right {
+    margin: 0 auto;
+    padding: 145px 50px 140px 50px;
+    max-width: 50%;
+    height: auto;
+}
+
+.title-ad {
+    color: #4b4e53;
+    font-family: 'Lato', Arial, Helvetica, sans-serif;
+    font-size: 45px;
+    line-height: 45px;
+    font-weight: 300;
+}
+
+.lijn {
+    margin-top: 15px;
+    height: 3px;
+    width: 100px;
+    background: #4b4e53;
+}
+
+.text-cont p {
+    margin-top: 30px;
+    font-family: 'Lato', Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 18px;
+    font-weight: 300;
+
+
+}
+
+.mt-30 {
+    margin-top: 30px !important;
+}
+
+.ads-img-cont {
+    padding-top: 50px;
+    padding-bottom: 45px;
+
+}
+
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+
+}
+
+.logonaam {
+    font: 400 2.6rem/20px "Yeseva one", cursive;
+}
+
+.button {
+    display: inline-block;
+    border: 1px solid #F1F1F1;
+    padding: .5em 1em;
+    border-radius: 2px;
+    color: #F1F1F1;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 400;
+    transition: all 500ms;
+    background-color: #4b4e53;
+
+}
+
+.button:hover {
+    color: #F1F1F1;
+    background-color: #2A2A2A;
+    text-decoration: none;
+
+}
+
+
+
 
 
 
